@@ -163,6 +163,15 @@ nav a.active { color: var(--dark); border-bottom: 0.5px solid var(--dark); paddi
   margin-left: 3px;
 }
 
+.stat-alt {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  color: var(--mid);
+  margin-left: 6px;
+  letter-spacing: 0.05em;
+}
+
 .hero-contact {
   margin-top: 56px;
   padding-top: 32px;
@@ -224,6 +233,17 @@ nav a.active { color: var(--dark); border-bottom: 0.5px solid var(--dark); paddi
 
 .gallery-3 .mode-feature {
   grid-column: 1 / -1;
+}
+
+/* mode11 / mode12 : recadrage au format 2:3 des autres photos mode */
+.gallery-3 .mode-zoom {
+  aspect-ratio: 2 / 3;
+}
+.gallery-3 .mode-zoom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .gallery-2 {
