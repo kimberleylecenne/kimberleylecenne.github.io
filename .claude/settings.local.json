@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $dir=\"C:/Users/kimle/OneDrive/Documents/MODEL/html/photo\"; foreach\\($f in \"commercial1.jpg\",\"commercial3.jpg\",\"commercial4.jpg\",\"commercial5.jpg\"\\){ $img=[System.Drawing.Image]::FromFile\\(\\(Join-Path $dir $f\\)\\); \"{0} {1}x{2} ratio {3:N3}\" -f $f,$img.Width,$img.Height,\\($img.Width/$img.Height\\); $img.Dispose\\(\\) })"
+    ]
+  }
+}
